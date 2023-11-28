@@ -54,14 +54,14 @@
 <template>
     <div class="container">
         <div class="row">
-            <div class="col-2">
-                <img src="/ass" alt="">
+            <div class="col-4">
+                <img src="/assets/dc-logo.png" alt="">
             </div>
-            <div class="col-10">
-                <div class="row justify-content-between  text-center">
+            <div class="col-8 pt-4">
+                <div class="row text-center">
                     <div class="col-1 px-0" v-for="testo in link">
-                        <a :href="testo.url">
-                            <p class="fs-6">{{ testo.text }}</p>
+                        <a class="fs-7" :href="testo.url">
+                            <p >{{ testo.text }}</p>
                         </a>
 
                     </div>
@@ -76,9 +76,10 @@
 
 <style scoped>
 
-    .fs-6{
-        font-size: 2px;
+    .fs-7{
+        font-size: 12px;
         color: black;
+        text-decoration: none;
     }
 
 </style>
