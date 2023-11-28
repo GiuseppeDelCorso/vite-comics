@@ -1,7 +1,8 @@
 <script>
 
 export default{
-    name: AppInfoSection,
+
+    name: "AppInfoSection",
     
     components: {
 
