@@ -1,9 +1,29 @@
 <script >
 
     export default{
-        components: {
-            AppHeader
+        name: AppHeader,
+        data(){
+            return{
+                link:[
+                    {
+                     text: "Charatter",
+                     url: "www.google.com"
+                    }
+
+
+
+                ]
+
+
+
+                
+
+
+            }
+
+
         }
+       
     }
 
 
@@ -14,4 +34,6 @@
 </template>
 
 <style scoped>
+
+
 </style>

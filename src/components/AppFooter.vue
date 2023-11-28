@@ -1,8 +1,8 @@
 <script>
 
 export default{
+    name: AppFooter,
     components: {
-        AppFooter
 
     }
 

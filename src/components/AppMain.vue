@@ -1,8 +1,10 @@
 <script>
 
 export default{
+    
+    name: AppMain,
+
     components: {
-        AppMain
 
     }
 
