@@ -55,12 +55,14 @@
     <div class="container">
         <div class="row">
             <div class="col-2">
-                <img src="" alt="">
+                <img src="/ass" alt="">
             </div>
             <div class="col-10">
-                <div class="row justify-content-between fs-6 text-center">
+                <div class="row justify-content-between  text-center">
                     <div class="col-1 px-0" v-for="testo in link">
-                        <a :href="testo.url">{{ testo.text }}</a>
+                        <a :href="testo.url">
+                            <p class="fs-6">{{ testo.text }}</p>
+                        </a>
 
                     </div>
                 </div>
@@ -75,7 +77,7 @@
 <style scoped>
 
     .fs-6{
-        font-size: 15px;
+        font-size: 2px;
         color: black;
     }
 
