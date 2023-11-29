@@ -26,23 +26,9 @@ export default{
                     img: "/assets/buy-dc-power-visa.svg",
                     text: "DC POWER VISA"
                 },
-
-
-
             ]
-        
-        
-        
-            
-
         }
-
-
-
     }
-    
-
-
 }
 
 </script>
