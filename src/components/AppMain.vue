@@ -17,8 +17,12 @@ export default{
 
 <template>
     <div class="BgNero">
+        <div>
+            <img class="imgJuboStyle" src="/assets/jumbotron.jpg" alt="">
+            <button class="styleJuboButton">CURRENT SERIES</button>
+        </div>
         <div class="container">
-            <div class="row">
+            <div class="row mt-5">
                 <div class="col-2 d-flex flex-column align-items-center" v-for="product in series">
                     <img class="imgStyle" :src="product.thumb" alt="">
                     <div class="py-4 text-white fs-7 text-center">{{product.series}}</div>
@@ -26,9 +30,9 @@ export default{
             </div>
         </div>
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    
+            <div class="row d-flex justify-content-center py-3">
+                <div class="col-2">
+                    <button class="styleButton">LOAD MORE</button>
                 </div>
             </div>
         </div>
@@ -53,9 +57,37 @@ h1{
     
 
 }
+.imgJuboStyle{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.styleJuboButton{
+    width: 200px;
+    height: 40px;
+    background-color: #0383f9;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    position: relative;
+    bottom: 20px;
+    left: 300px;
+}
 .fs-7{
         font-size: 12px;
        font-weight: bold;
     }
-
+.styleButton{
+    
+    width: 170px;
+    height: 35px;
+    background-color: #0383f9;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    
+}
 </style>

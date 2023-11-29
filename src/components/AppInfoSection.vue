@@ -50,7 +50,7 @@ export default{
 
 <style scoped>
 .BgAzzurre{
-    background-color: cornflowerblue;
+    background-color: #0383f9;
 }
 .sizeImg{
     width: 50px;
